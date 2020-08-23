@@ -6,13 +6,68 @@
 
     <head>
         <title>Curriculum</title>
+        <style type="text/css">
+
+        #Cabecera{
+            text-align: center;
+            font-weight: bolder;
+            font-size: x-large;
+        }
+
+        div{
+            font-size: medium;
+        }
+
+        img{
+            display: block;
+            margin: auto;
+            height: 300px;
+        }
+
+        address{
+            background-color: lightblue;
+            width: 200px;
+            float: right;
+            padding: 30px;
+            clear: both;
+        }
+
+        #Intereses{
+            float: left;
+            margin-left: 25%;
+            background-color: lightgreen;
+            border-width: medium;
+            border-color: black;
+            padding: 20px;
+        }
+
+        #Calificaciones{
+            float: left;
+            margin-left: 10%;
+            background-color: lightgreen;
+            border-width: medium;
+            border-color: black;
+            padding: 20px;
+            margin-bottom: 10px;
+        }
+
+
+        #Sep{
+            clear: both;
+        }
+
+        </style>
     </head>
     
 
     <body>
-        <h1>Nestor A. Martinez</h1>
-        <h5>Residencial Montecielo, Senda las Brisas #32 <br> San Salvador, El Salvador</h5>
-        <br>
+        <section id="Cabecera">
+            <h1>Nestor A. Martinez</h1>
+            <h5>Residencial Montecielo, Senda las Brisas #32 <br> San Salvador, El Salvador</h5>
+            <br>
+        </section>
+
+
 
         <img src="https://scontent-mia3-2.xx.fbcdn.net/v/t1.0-0/p206x206/52363122_2128545910593875_8277082190542536704_n.jpg?_nc_cat=110&_nc_sid=da31f3&_nc_ohc=n7KvFvyk4vwAX9LyQnv&_nc_ht=scontent-mia3-2.xx&_nc_tp=6&oh=8bb79d567e8988c82cfa26cade96b036&oe=5F5E050A", alt="Nestor Martinez"><br>
 
@@ -51,13 +106,13 @@
             </header>
 
             <ul>
-                <li>Highschool Colegio Salvaodreño Ingles</li>
+                <li>Highschool Colegio Salvadoreño Ingles</li>
             </ul>
         </div>
 
         <hr>
 
-        <div>
+        <div id="Intereses">
             <header>
                 <strong><h4>Interests</h4></strong>
             </header>
@@ -70,9 +125,9 @@
             </ul>
         </div>
 
-        <hr>
 
-        <div>
+
+        <div id="Calificaciones">
             <header>
                 <strong><h4>Qualifications</h4></strong>
             </header>
@@ -85,19 +140,21 @@
                     <li>SQL</li>
                     <li>C++</li>
                     <li>C</li>
-                    <li>Python</li>
                 </ul>
                 <li>Self-teaching</li>
                 <li>Fast learner</li>
             </ul>
         </div>
 
-        <hr>
+        <hr id="Sep">
 
         <div>
             <address>
-                <a href="mailto:nestor.martinez3103@gmail.com">nestor.a.martinez@gmail.com</a><br>
+                Informacion de Contacto
+                <a href="mailto:nestor.martinez3103@gmail.com">nestor.a.martinez@gmail.com</a>
                 <a href="tel:+5037747503">(+503) 77477503</a>
+                
+                
             </address>
         </div>
 
